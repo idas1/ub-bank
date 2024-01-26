@@ -101,6 +101,15 @@
     .Block_1 .Block_1-about .txt-second-block{
         text-align: justify;
     }
+    .Block_1 .special-fix .header-text{
+      font-size: 18px;
+    }
+    .Block_1 .Block_1-about .txt-block-about{
+      font-size: 18px;
+    }
+    .Block_1 .Block_1-about .txt-second-block{
+      font-size: 14px;
+    }
 }
 /* ---------------------------------------------------- */
 #learn-banking .Block2 .Block2-intro{
@@ -176,5 +185,8 @@
         text-align: center;
         padding: 0;
         align-items: center;
+    }
+    .Block3 .block-img-about .txt2{
+      font-size: 24px;
     }
 }
