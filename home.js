@@ -67,3 +67,9 @@ function openSideBar(){
     
 }
 
+function LearningBanked(){
+    window.location.href ='learning.html'
+}
+function Home(){
+    window.location.href = 'home.html'
+}

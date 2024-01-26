@@ -1,0 +1,180 @@
+@import "home.css";
+#learn-banking
+  .company-achievements-container
+  .company-achievements-intro
+  .achievements-item
+  .item-header {
+  flex-direction: column;
+}
+#learn-banking
+  .company-achievements-container
+  .company-achievements-intro
+  .achievements-item {
+  padding: 40px 20px;
+}
+.btt-fix {
+  width: 100%;
+  margin: 20px 0;
+  display: flex;
+}
+.btt-fix .btt {
+  margin: 0 auto;
+  background-color: var(--BrandUB);
+  color: #fff;
+  padding: 18px 32px;
+  border-radius: 56px;
+  font-family: var(--font-Roboto);
+  border: none;
+  cursor: pointer;
+}
+/* ------------------------ */
+
+#learn-banking
+  .typical-information-container
+  .Special-Block
+  .infomation-slide
+  .infomation-item {
+  background-image: url(./img/learning-typical.png);
+  color: #fff;
+  font-family: var(--font-Roboto);
+  padding: 37px 20px;
+  border-radius: 17px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#learn-banking .typical-information-container .infomation-slide .menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#learn-banking .typical-information-container .more .btt-more {
+  color: #fff;
+  background-color: var(--BrandUB);
+}
+#learn-banking .typical-information-container .infomation-item .header-block p {
+  font-size: 24px;
+  text-align: justify;
+}
+#learn-banking .typical-information-container .information-item-description {
+  min-height: 186px;
+}
+#learn-banking .typical-information-container .infomation-item .header-block {
+  position: relative;
+  padding: 20px 0;
+}
+.border-bottom-50 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  height: 0;
+  border-bottom: 2px solid #ff9536; /* Màu và độ dày của border-bottom */
+}
+@media screen and (max-width: 767px) {
+  #learn-banking .typical-information-container .infomation-slide {
+    flex-direction: column;
+  }
+  
+}
+/* ---------- */
+#learn-banking .form-register {
+  margin: 50px 0;
+}
+/* --------------------------------------- */
+#learn-banking .Block_1 .special-fix {
+  justify-content: center;
+  gap: 40px;
+}
+#learn-banking .Block_1 .Block_1-about {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-family: var(--font-Roboto);
+}
+.Block_1 .Block_1-about .txt-block-about {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+}
+@media only screen and (max-width:767px) {
+    .Block_1 .Block_1-about .txt-second-block{
+        text-align: justify;
+    }
+}
+/* ---------------------------------------------------- */
+#learn-banking .Block2 .Block2-intro{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+#learn-banking .Block2 .Block2-intro .block-item{
+    width: 47%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    color: #fff;
+    background-color: var(--BrandUB);
+    gap: 15px;
+}
+.Block2 .Block2-intro .block-item .item-header{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+@media only screen and (max-width:767px) {
+
+    #learn-banking .Block2 .Block2-intro .block-item{
+        width: 100%;
+    }
+    #learn-banking .Block2 .Block2-header .header-text{
+        font-size: 18px;
+    }
+}
+/* -------------------------------------------------- */
+#learn-banking .Block3 .special-fix{
+    justify-content: center;
+    gap: 40px;
+}
+#learn-banking .Block3 .block-img-about{
+    display: flex;
+}
+.Block3 .block-img-about .bl-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 0 0 50px;
+    gap: 15px;
+    font-family: var(--font-Roboto);
+}
+.Block3 .block-img-about {
+    .txt1{
+        font-size: 24px;
+        color: var(--BrandUB);
+    }
+    .txt2{
+        font-size: 42px;
+        color: var(--BrandUB);
+        font-weight: 700;
+        margin: 10px 0;
+    }
+    .txt3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+}
+@media only screen and (max-width:767px){
+    #learn-banking .Block3 .block-img-about{
+        flex-direction: column;
+        gap: 30px;
+    } 
+    #learn-banking .Block3 .block-img-about .bl-content{
+        text-align: center;
+        padding: 0;
+        align-items: center;
+    }
+}

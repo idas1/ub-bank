@@ -152,6 +152,7 @@ img {
 .logo-company {
   width: 150px;
   height: 58.523px;
+  cursor: pointer;
 }
 .contact-info {
   display: flex;
@@ -309,6 +310,7 @@ img {
   font-weight: 500;
   line-height: normal;
   font-family: var(--font-Roboto);
+  cursor: pointer;
 }
 /* ------------end header--------------------------------------------- */
 
